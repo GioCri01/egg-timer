@@ -1,0 +1,41 @@
+
+ .Baking ,.Baking div {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.Baking{
+    height: 35%;
+	width: 100%;
+    
+}
+
+
+.Baking .box{
+    flex-direction:column ;
+    cursor: pointer;
+    
+}
+
+.Baking .egg {
+	background: #FFFFFF;
+	width: 5rem;
+	height: 7rem;
+	border-radius: 50% / 60% 60% 40% 40%;
+    
+}
+.Baking .yolk	{
+	background: #ffcc00;
+	width: 3rem;
+	height: 3.25rem;
+	border-radius: 50% / 60%;
+}
+
+
+.active-egg{
+    transition: all 0.5s ease;
+    border-radius: 25px;
+    background-color: #c7c6c6;
+    padding: 20px;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}

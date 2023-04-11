@@ -1,0 +1,31 @@
+.Size,.grams{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.Size .select-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #ffc000;
+    cursor: pointer;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.grams{
+    height: 20px;
+    font-weight: 600;
+}
+
+.Size .active-size{
+    background-color:#ff3300;
+}
+ 

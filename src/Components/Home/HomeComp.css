@@ -1,0 +1,5 @@
+.HomeComp {
+    width: 95%;
+    margin: auto;
+	height: calc(100vh - 120px);
+}
