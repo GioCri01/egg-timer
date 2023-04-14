@@ -1,0 +1,92 @@
+.Login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c55438f6;
+    
+}
+
+.Login h1{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form p{
+    color: rgb(141, 7, 7);
+    text-align: center;
+}
+
+input{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+
+label{
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 0;
+}
+
+
+
+
+/* CSS */
+button {
+    margin-top: 10px;
+  background-color: #fbcdc2;
+  border-radius: 100px;
+  box-shadow: rgba(187, 113, 44, 0.2) 0 -25px 18px -14px inset,rgba(187, 108, 44, 0.15) 0 1px 2px,rgba(187, 101, 44, 0.15) 0 2px 4px,rgba(187, 96, 44, 0.15) 0 4px 8px,rgba(187, 101, 44, 0.15) 0 8px 16px,rgba(187, 165, 44, 0.15) 0 16px 32px;
+  color: rgb(128, 51, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(187, 113, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 137, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 108, 44, 0.25) 0 4px 8px,rgba(187, 113, 44, 0.25) 0 8px 16px,rgba(187, 96, 44, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.sigin {
+    margin-top: 10px;
+  background-color: #fbcdc2;
+  border-radius: 100px;
+  box-shadow: rgba(187, 113, 44, 0.2) 0 -25px 18px -14px inset,rgba(187, 108, 44, 0.15) 0 1px 2px,rgba(187, 101, 44, 0.15) 0 2px 4px,rgba(187, 96, 44, 0.15) 0 4px 8px,rgba(187, 101, 44, 0.15) 0 8px 16px,rgba(187, 165, 44, 0.15) 0 16px 32px;
+  color: rgb(128, 51, 0);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.sigin:hover {
+  box-shadow: rgba(187, 113, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 137, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 108, 44, 0.25) 0 4px 8px,rgba(187, 113, 44, 0.25) 0 8px 16px,rgba(187, 96, 44, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

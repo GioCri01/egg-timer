@@ -1,0 +1,26 @@
+.Sigin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c55438f6;
+}
+
+.Sigin h1{
+    color: white;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.error{
+    font-size: 15px;
+    padding: 5px 5px;
+    color: rgb(87, 4, 4);
+    
+}

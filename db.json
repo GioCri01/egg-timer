@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "pasquale",
+      "password": "5678"
+    },
+    {
+      "id": 3,
+      "name": "giovanni",
+      "password": "1234"
+    },
+    {
+      "name": "Michele",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "sdassdsds",
+      "password": "adasdass",
+      "id": 5
+    },
+    {
+      "name": "michele",
+      "password": "Michele1",
+      "id": 6
+    },
+    {
+      "name": "Giulio",
+      "password": "Giulio1",
+      "id": 7
+    },
+    {
+      "name": "Silvio",
+      "password": "Silvio10",
+      "id": 8
+    },
+    {
+      "name": "Orlando",
+      "password": "Orlando1",
+      "id": 9
+    },
+    {
+      "name": "Alberto",
+      "password": "Alberto1",
+      "id": 10
+    }
+  ]
+}

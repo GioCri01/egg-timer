@@ -3,3 +3,9 @@
     margin: auto;
 	height: calc(100vh - 120px);
 }
+
+
+.HomeComp .header{
+    display: flex;
+    justify-content: space-between;
+}
