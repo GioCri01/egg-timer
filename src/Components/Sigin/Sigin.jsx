@@ -24,6 +24,7 @@ const Sigin = () => {
             let user = {name:name,password:pass}
             console.log(response);
             navigate("/timer")
+            sessionStorage.setItem("user",JSON.stringify(user))
             loginDispatch(setLogin(user))
           })
           .catch(function (error) {
